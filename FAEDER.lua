@@ -1,7 +1,7 @@
 -- Welcom To File The Best Source In The Telegram
--- All The File By Developer Faeder : @KKKKF
--- Join In Chennel Source : @FAEDER_CH 
--- Join In Explanation Channel : @Learn_Faeder
+-- All The File By Developer Faeder : @T_m_m 
+-- Join In Chennel Source : @c_l_h 
+-- Join In Explanation Channel : @c_l_h 
 ----------------------------------------------------------------------------
 serpent = require("serpent") 
 lgi = require('lgi')
@@ -22,10 +22,10 @@ print(serpent.block(value, {comment=false}))
 end 
 local function AutoSet(token)
 if not token then
-io.write("\27[34;47m◼¦ الآن ادخل توكن بوتك هنا ↓ \27[0;1;36m\n") 
+io.write("\27[34;47m◼¦  5554881235:AAF_X6hMfEjKWq2AIH7UoRTvDPprgCwXqug↓ \27[0;1;36m\n") 
 token = io.read():gsub(' ','')
 if token == '' then
-io.write("\27[31;47m◼¦ عذراً، لم تقم بادخال توكن البوت\27[0;m\n") 
+io.write("\27[31;47m◼¦ عذراً، لم تقم بادخال توكن البوت \27[0;m\n") 
 AutoSet()
 end
 
@@ -40,7 +40,7 @@ botusername = getToken.result.username
 io.write("\27[34;47m◼¦ تم ادخال توكن البوت بنجاح \nUserName Bot : \27[0;32;47m@"..botusername.."\n")
 end
 
-io.write("\27[34;47m◼¦ الآن ادخل معرف المطور هنا ↓ \27[0;1;36m\n") 
+io.write("\27[34;47m◼¦    @T_m_m ↓ \27[0;1;36m\n") 
 local username = io.read():gsub(' ','')
 if username == '' then
 io.write("\27[31;47m◼¦ عذراً، لم تقم بادخال معرف المطور\27[0;m \n") 
@@ -56,12 +56,12 @@ getuser.username = username
 getuser.Source  = Foldir
 local url , res = https.request('https://faeder.net/Faeder/index.php?Array='..JSON.encode(getuser))
 if res ~= 200 then
-io.write("\27[31;47m◼¦ حدث خطأ في الاتصال بالسيرفر ، يرجى مراسلة مطور السورس { @KKKKF } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
+io.write("\27[31;47m◼¦ حدث خطأ في الاتصال بالسيرفر ، يرجى مراسلة مطور السورس { @T_m_m } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
 os.exit()
 end
 Getresult, Getuser = pcall(JSON.decode, url)
 if not Getresult then
-io.write("\27[31;47m◼¦ حدث خطأ في سكرب الاستخراج ، يرجى مراسلة مطور السورس { @KKKKF } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
+io.write("\27[31;47m◼¦ حدث خطأ في سكرب الاستخراج ، يرجى مراسلة مطور السورس { @T_m_m } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
 os.exit()
 end
 if not Getuser.ok then
